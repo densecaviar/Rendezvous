@@ -27,7 +27,7 @@ Prerequisites
 
 You need Docker Desktop installed and running. This project is set up to run as three coordinated containers (frontend, backend, MySQL) via Docker Compose, and that's the only setup path the team actively maintains. You do not need Node.js, Python, Poetry, or MySQL installed on your machine — Docker handles all of that inside the containers. (A manual, no-Docker setup is documented below for reference, but it's unsupported and more error-prone.)
 
-macOS: brew install --cask docker
+macOS: `brew install --cask docker`
 Windows/Linux: download the installer from the link above
 
 After installing, open the Docker Desktop app once and wait for the whale icon in your menu bar / system tray to show it's running — the docker CLI won't work until the engine is up.
@@ -39,8 +39,8 @@ Docker builds and starts all three services together (MySQL, FastAPI, React) wit
 
 1. Install Docker Desktop (includes the Docker engine + Compose plugin):
 
-sh
-brew install --cask docker
+`sh`
+`brew install --cask docker`
 
 Then open the Docker app from your Applications folder once, and wait until you see the whale icon in your menu bar (this means the background engine is running). You only need to do this once.
 
@@ -48,15 +48,15 @@ Note: brew install docker (no --cask) only installs the command-line client, not
 
 2. Start everything from the repo root:
 
-sh
-git clone https://github.com/username/repo.git
-cd Rendezvous-main
-docker compose up --build
+`sh`
+`git clone https://github.com/username/repo.git`
+`cd Rendezvous-main`
+`docker compose up --build`
 
 3. Open the app:
 
-Frontend: http://localhost:42070
-Backend API docs (Swagger UI): http://localhost:42069/docs
+Frontend: `http://localhost:42070`
+Backend API docs (Swagger UI): `http://localhost:42069/docs`
 
 The database schema (accounts, events, etc.) is created automatically on first startup — no manual SQL needed.
 
@@ -74,17 +74,17 @@ Start MySQL locally and create a database matching backend_fastapi/.env (MYSQL_D
 
 2. Backend:
 
-sh
-cd backend_fastapi
-poetry install
-poetry run uvicorn backend_fastapi.main:app --reload --port 8000
+`sh`
+`cd backend_fastapi`
+`poetry install`
+`poetry run uvicorn backend_fastapi.main:app --reload --port 8000`
 
 3. Frontend (in a new terminal):
 
-sh
-cd rendezvous_app
-npm install
-npm start
+`sh`
+`cd rendezvous_app`
+`npm install`
+`npm start`
 
 Make sure rendezvous_app/.env has REACT_APP_BACKEND_URL pointing at your backend (http://localhost:8000 if you used the command above).
 
