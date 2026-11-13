@@ -1,6 +1,6 @@
 
 
-We are planning to build an app designed to assist people with creating and attending events, with the goal of improving the social life of all our app users by helping them connect with new people and spend time with shared interests and hobbies. Word of mouth is not a reliable and efficient way to plan and host events. Thus, we figured that an online application for doing so would help event hosts fill up their attendee lists and also for students to have a proper portal to browse and attend events that they are interested in. This app can be used to advertise the event hosts’ event, whether it is a professional event or a recreational event. We are planning to start with a web application, and then possibly change it to a mobile app if time permits.
+We built an app designed to assist people with creating and attending events, with the goal of improving the social life of all our app users by helping them connect with new people and spend time with shared interests and hobbies. Word of mouth is not a reliable and efficient way to plan and host events. Thus, we figured that an online application for doing so would help event hosts fill up their attendee lists and also for students to have a proper portal to browse and attend events that they are interested in. This app can be used to advertise the event hosts’ event, whether it is a professional event or a recreational event. We are planning to start with a web application, and then possibly change it to a mobile app if time permits.
 
 Highlights
 
