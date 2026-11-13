@@ -120,13 +120,13 @@ Create a new Pull Request.
 
 Please make sure your code adheres to the coding standards and includes appropriate tests
 
-License
+License:
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-Acknowledgments
-The UTSC LAUNCH event team for inspiration
-Our university staff and students who participated in the focus groups
-Contact
+Acknowledgments:
+The UTSC LAUNCH event team for inspiration.
+Our university staff and students who participated in the focus groups.
 
+Contact:
 If you have any questions, feel free to reach out to us through Github.
